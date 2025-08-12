@@ -1,0 +1,28 @@
+.navbar {
+  background-color: var(--header-bg);
+  backdrop-filter: blur(10px); 
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand {
+  color: var(--dark-color);
+}
+
+.nav-link {
+  color: var(--secondary-color);
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--primary-color);
+}
+
+.navbar-toggler {
+  border: none;
+  &:focus {
+    box-shadow: none;
+  }
+}

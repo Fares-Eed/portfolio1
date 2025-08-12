@@ -1,0 +1,15 @@
+.skills-section h5 {
+  color: #333;
+}
+
+.progress {
+  height: 25px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.progress-bar {
+  font-weight: bold;
+  font-size: 0.9rem;
+}

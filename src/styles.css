@@ -1,0 +1,58 @@
+/* src/styles.css */
+
+/* Google Font */
+
+:root{
+  --bg: #F9FAFB;
+  --text: #1F2937;
+  --muted: #6B7280;
+  --primary: #4CAF50;
+  --primary-dark: #43a047;
+  --secondary: #2196F3;
+}
+
+*{ box-sizing: border-box; }
+html,body{ height:100%; }
+
+body {
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background-color: var(--bg);
+  color: var(--text);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Headings */
+h1,h2,h3{ color: var(--text); font-weight:600; margin:0; }
+
+/* Navbar small overrides (global) */
+.navbar{
+  background: transparent;
+  padding: .75rem 0;
+}
+.navbar .nav-link{
+  color: var(--muted);
+  margin-right: .5rem;
+  transition: color .15s, transform .12s;
+}
+.navbar .nav-link:hover{ color: var(--primary); transform: translateY(-1px); }
+.navbar .nav-link.active{ color: var(--primary); font-weight:600; }
+
+/* Buttons consistent */
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  border-radius: 8px;
+  padding: .55rem 1rem;
+}
+.btn-primary:hover { background-color: var(--primary-dark); border-color: var(--primary-dark); }
+
+/* Utility for subtle shadow cards */
+.card-soft {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(31,41,55,0.06);
+}
+
+/* small responsive tweaks can live here too */

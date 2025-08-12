@@ -1,0 +1,17 @@
+.service-card {
+  background-color: #ffffff;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.service-card h5 {
+  color: #333;
+}
+
+.service-card p {
+  margin-bottom: 0;
+}

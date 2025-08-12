@@ -1,0 +1,27 @@
+.timeline {
+  position: relative;
+  padding-left: 30px;
+  border-left: 3px solid #ccc;
+}
+
+.timeline-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.timeline-date {
+  position: absolute;
+  left: -110px;
+  top: 0;
+  width: 100px;
+  text-align: right;
+  font-weight: bold;
+  color: #555;
+}
+
+.timeline-content {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}

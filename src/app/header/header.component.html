@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+<nav class="navbar navbar-expand-lg shadow-sm">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" routerLink="/">
+      <span class="fs-4 fw-bold">Fares Eed</span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+      aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav ms-3 align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Cover</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/bio" routerLinkActive="active">About me</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/education" routerLinkActive="active">Education</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/skills" routerLinkActive="active">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/projects" routerLinkActive="active">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/Offerd Services" routerLinkActive="active">Services</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/work-experience" routerLinkActive="active">Work Experience</a></li>
+      </ul>
+
+      <div class="ms-auto d-flex align-items-center">
+        <a class="btn btn-primary" routerLink="/contact">Hire me</a>
+      </div>
+    </div>
+  </div>
+</nav>
