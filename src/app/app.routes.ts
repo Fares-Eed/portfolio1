@@ -12,7 +12,7 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
 
 export const routes: Routes = [
 
-{    path: '/fares-eed.github.io/portfolio1/',
+{    path: '',
     component :HeroComponent,
     title: 'Cover Page'
 
@@ -52,5 +52,6 @@ export const routes: Routes = [
         path: 'work-experience',
         component: WorkExperienceComponent,
         title: 'Work Experience'
+        
     }
 ];
