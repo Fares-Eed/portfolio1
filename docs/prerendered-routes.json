@@ -1,12 +1,12 @@
 {
   "routes": {
-    "/": {},
-    "/Offerd Services": {},
-    "/bio": {},
-    "/contact": {},
-    "/education": {},
-    "/projects": {},
-    "/skills": {},
-    "/work-experience": {}
+    "/portfolio1": {},
+    "/portfolio1/Offerd Services": {},
+    "/portfolio1/bio": {},
+    "/portfolio1/contact": {},
+    "/portfolio1/education": {},
+    "/portfolio1/projects": {},
+    "/portfolio1/skills": {},
+    "/portfolio1/work-experience": {}
   }
 }
